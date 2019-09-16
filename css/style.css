@@ -1,13 +1,35 @@
 /**************** extend css start ****************/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:300,400,500,600,700,800|Roboto:300,400,500");
+
+.btn-p {
+  background-color: grey;
+}
+.btn-p:hover {
+  background-color: #00b4ff;
+}
 /* line 2, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_extends.scss */
-.btn_1, .btn_2:hover, .form-contact .form-group .btn_1 i {
-  background-image: linear-gradient(to left, #00b4ff 0%, #57ddff 51%, #00b4ff 100%);
+.btn_1,
+.btn_2:hover,
+.form-contact .form-group .btn_1 i {
+  background-image: linear-gradient(
+    to left,
+    #00b4ff 0%,
+    #57ddff 51%,
+    #00b4ff 100%
+  );
 }
 
 /* line 5, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_extends.scss */
-.banner_part .banner_text .banner_btn_1:hover, .banner_part .banner_text .banner_btn_2:hover, .cta_part .banner_btn_1:hover, .cta_part .banner_btn_2:hover {
-  background-image: linear-gradient(to left, #57ddff 0%, #57ddff 51%, #57ddff 100%);
+.banner_part .banner_text .banner_btn_1:hover,
+.banner_part .banner_text .banner_btn_2:hover,
+.cta_part .banner_btn_1:hover,
+.cta_part .banner_btn_2:hover {
+  background-image: linear-gradient(
+    to left,
+    #57ddff 0%,
+    #57ddff 51%,
+    #57ddff 100%
+  );
 }
 
 /* line 8, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_extends.scss */
@@ -31,7 +53,8 @@ body {
 }
 
 /* line 12, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
-input:hover, input:focus {
+input:hover,
+input:focus {
   outline: none !important;
 }
 
@@ -153,7 +176,12 @@ a:hover {
 }
 
 /* line 72, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #1a1a1a;
   font-family: "Poppins", sans-serif;
 }
@@ -218,7 +246,10 @@ img {
 }
 
 /* line 118, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
-a:focus, .button:focus, button:focus, .btn:focus {
+a:focus,
+.button:focus,
+button:focus,
+.btn:focus {
   text-decoration: none;
   outline: none;
   box-shadow: none;
@@ -459,9 +490,9 @@ ul {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #fff;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   text-transform: capitalize;
   background-size: 200% auto;
   border: 1px solid transparent;
@@ -507,9 +538,9 @@ ul {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #1a1a1a;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   text-transform: capitalize;
   border: 1px solid #8f9091;
   background-size: 200% auto;
@@ -650,7 +681,8 @@ ul {
 }
 
 /* line 14, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_blog.scss */
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
   color: #0ab6ff;
 }
 
@@ -673,7 +705,7 @@ ul {
 
 /* line 32, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_blog.scss */
 .single-blog .thumb:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -720,7 +752,7 @@ ul {
 
 /* line 80, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_blog.scss */
 .single-blog .tag:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 10px;
@@ -779,7 +811,7 @@ ul {
 
 /* line 131, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_blog.scss */
 .single-blog:hover .thumb:after {
-  opacity: .7;
+  opacity: 0.7;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -1760,7 +1792,7 @@ ul {
 
 /* line 1257, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_blog.scss */
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -1802,7 +1834,7 @@ ul {
 
 /* line 1292, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_blog.scss */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
@@ -2204,8 +2236,8 @@ ul {
 /* line 110, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
 .cart .dropdown-toggle::after {
   display: inline-block;
-  margin-left: .255em;
-  vertical-align: .255em;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
   content: "";
   border: 0px solid transparent;
 }
@@ -3730,7 +3762,12 @@ h6 {
 }
 
 /* line 117, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.2em;
 }
 
@@ -3772,7 +3809,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -4605,7 +4642,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 798, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4647,7 +4685,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 835, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4695,7 +4734,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 876, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4737,7 +4777,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 913, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4779,7 +4820,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 950, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4827,7 +4869,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 991, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5346,7 +5389,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 9, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
