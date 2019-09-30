@@ -23,7 +23,7 @@
     top: 0;
     background-color: rgba(13, 109, 165, 0.89);
     color: white;
-    height: 100vh;
+    height: 70vh;
     padding: 50px 30px 0;
     text-align: center
 }
@@ -33,3 +33,15 @@
 .stack1 .hover p{
    color: #ffffff;
 }
+
+@media only screen and (max-width: 361px) {
+    .stackcontianer{
+        background-color: red;
+        width: 100%
+    }
+    .stackcontianer .stack1{
+        width: 95vw;
+        height: 70vh;
+        /* background-color: black; */
+    }
+  }
