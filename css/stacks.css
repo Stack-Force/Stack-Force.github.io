@@ -1,5 +1,4 @@
 .stackcontianer{
-    /* background-color: red; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -8,7 +7,6 @@
 .stackcontianer .stack1{
     width: 32.9vw;
     height: 70vh;
-    /* background-color: black; */
 }
 .stackcontianer .stack1 img{
     width:100%;
@@ -33,15 +31,23 @@
 .stack1 .hover p{
    color: #ffffff;
 }
-
-@media only screen and (max-width: 361px) {
+/* for tablet */
+@media (max-width:801px)  { 
     .stackcontianer{
-        background-color: red;
+        width: 100%
+    }
+    .stackcontianer .stack1{
+        width: 49vw;
+        height: 50vh;
+    }
+}
+/* for mobile */
+@media (max-width:480px)  { 
+    .stackcontianer{
         width: 100%
     }
     .stackcontianer .stack1{
         width: 95vw;
         height: 70vh;
-        /* background-color: black; */
     }
-  }
+}

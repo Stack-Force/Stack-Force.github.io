@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 0px;
   /* height: 640px; */
   height: auto;
   width: 100%;
@@ -38,57 +37,46 @@
   width: 80%;
 }
 
-.about .explain {
+/* .about .explain {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  /* height: 250px; */
   width: 94%;
   margin-top: 40px;
-  /* background-color: #000; */
-}
+} */
 
-.about .explain .ablock {
+/* .about .explain .ablock {
   position: relative;
   display: flex;
   align-self: flex-start;
   justify-content: space-between;
   width: 33%;
-  /* background-color: pink; */
+} */
+
+.explain{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  position: relative;
 }
 
-.about .explain .ablock i {
-  position: relative;
-  color: black;
-  font-size: 50px;
-}
-.about .explain .ablock .ex-div1 {
-  position: relative;
-  width: 80%;
-  align-self: flex-start;
-}
-
-.about .explain .ablock .ex-div1 h3 {
-  position: relative;
-  font-size: 26px;
-  font-family: "Poppins", sans-serif;
-  color: black;
-  text-align: left;
-  letter-spacing: 1px;
-}
-
-.about .explain .ablock .ex-div1 .aep1 {
-  width: 85%;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  text-align: left;
-  color:black;
-  letter-spacing: 1px;
-  line-height: 1.5em;
+.explain .ablock{
+width: 32vw;
+height: 50vh;
 }
 
 /*..........About How We Work Section............*/
+
+/* for tablet */
+@media (max-width:800px)  {
+.explain .ablock{
+  width:95vw;
+  height: 50vh;
+}
+}
 
 .hww {
   display: flex;
@@ -184,3 +172,5 @@
   color:  #ffffff;
   font-family: "Poppins", sans-serif;
 }
+
+
