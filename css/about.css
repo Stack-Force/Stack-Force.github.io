@@ -42,45 +42,66 @@
   flex-wrap: wrap;
   width: 94%;
   margin-top: 40px;
-  /* background-color: #000; */
-}
-
-.about .explain .ablock {
+ } 
+ 
+ .explain{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 0px 40px 0px;
   position: relative;
-  align-self: flex-start;
-  justify-content: space-between;
-  width: 33%;
-  /* background-color: pink; */
-}
-
-.about .explain .ablock i {
+ }
+ 
+ .explain .ablock{
+ width: 33.3%;
+ height: 50vh;
+ }
+ .about .explain .ablock .ex-div1 {
   position: relative;
-  color: black;
-  font-size: 50px;
-}
-.about .explain .ablock .ex-div1 {
-  position: relative;
-  width: 80%;
+  width: 100%;
   align-self: flex-start;
 }
 
 .about .explain .ablock .ex-div1 h3 {
-  position: relative;
-  font-size: 26px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color:black;
   font-family: "Poppins", sans-serif;
-  color: black;
-  text-align: left;
-  letter-spacing: 1px;
-}
+  line-height: 1.5em;
 
-.about .explain .ablock .ex-div1 .aep1 {
-  width: 85%;
+}
+ .about .explain .ablock .ex-div1 .aep1 {
+  width: 100%;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  text-align: left;
   color:black;
   letter-spacing: 1px;
   line-height: 1.5em;
+  margin-top: 20px;
+  text-align: center
+}
+ .about .explain .ablock .icon{
+  position: relative;
+  /* left: 5em; */
+  height: 6em;
+  width: 6em;
+  border: 1px solid black;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: transform 0.3s;
+}
+.about .explain .ablock .icon i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5em;
+  color: #000000;
+  text-align: center;
+  justify-content: center;
 }
  .divider{
   border-width: .1rem;
@@ -98,7 +119,6 @@
   width:95vw;
   height: 50vh;
  }
-
  }
  
  .hww {
