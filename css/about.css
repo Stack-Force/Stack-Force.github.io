@@ -118,6 +118,7 @@
  .explain .ablock{
   width:95vw;
   height: 50vh;
+  margin-top: 30px
  }
  }
  
@@ -215,3 +216,25 @@
   color: #ffffff;
   font-family: "Poppins", sans-serif;
  }
+ @media (max-width:801px)  { 
+  .hww .berief{
+      width: 100%;
+      text-align: center;
+      justify-content: center
+  }
+  .hww .berief .hblock{
+      width: 49vw;
+
+  }
+}
+/* for mobile */
+@media (max-width:480px)  { 
+  .hww .berief{
+      width: 100%;
+      text-align: center;
+      justify-content: center
+  }
+  .hww .berief .hblock{
+      width: 95vw;
+  }
+}
